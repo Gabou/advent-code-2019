@@ -11,6 +11,7 @@ class FailTest {
 
     @Test
     void shouldBeFalse() {
+
         assertThat(false).isTrue();
     }
 }
